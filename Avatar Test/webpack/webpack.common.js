@@ -28,7 +28,7 @@ module.exports = {
     }
   },
   plugins: [
-    new HtmlWebpackPlugin({ gameName: 'BullMystery', template: 'src/index.html' }),
+    new HtmlWebpackPlugin({ gameName: 'Demo Slot', template: 'index.html' }),
     new CopyWebpackPlugin({
       patterns: [
         { from: 'src/assets', to: 'assets' },
